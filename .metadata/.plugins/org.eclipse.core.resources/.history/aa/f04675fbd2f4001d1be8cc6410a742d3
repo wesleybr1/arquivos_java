@@ -1,0 +1,11 @@
+package entities;
+
+public class ContaCorrete extends Conta{
+
+	public ContaCorrete() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

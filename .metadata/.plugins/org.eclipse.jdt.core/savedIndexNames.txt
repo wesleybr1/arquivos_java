@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\Aluno Tarde\Documents\arquivos_java\.metadata\.plugins\org.eclipse.jdt.core
+736592161.index
+115976397.index
+235043725.index
+1907890700.index
+1865797976.index

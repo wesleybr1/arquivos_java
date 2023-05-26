@@ -1,0 +1,20 @@
+package principal;
+
+import entities.Conta;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Conta conta = new Conta();
+
+		conta.setTitularConta("Joao");
+		conta.setNumeroConta(1234);
+		conta.setAgencia(4321);
+		conta.depositar(500.00);
+		conta.mostraDadosDaConta();
+		conta.sacar(483.33);
+		conta.mostraDadosDaConta();
+		
+	}
+
+}

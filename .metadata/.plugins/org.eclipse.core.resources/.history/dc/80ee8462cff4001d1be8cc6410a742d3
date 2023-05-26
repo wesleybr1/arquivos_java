@@ -1,0 +1,49 @@
+package principal;
+
+import java.util.Scanner;
+
+import entities.Conta;
+
+public class Program {
+
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in);
+		Conta conta = new Conta();
+		
+		String nome = "wesly";
+		int contaNumero = 1234;
+		int agencia = 4321;
+		
+		Conta conta = new Conta(nome, contaNumero, agencia);
+		
+		System.out.println(conta);
+		
+		/*System.out.print("Entre com o numero da conta: ");
+		conta.setNumeroDaConta(sc.nextInt());
+		
+		System.out.print("Entre com a agencia: ");
+		conta.setAgencia(sc.nextInt());
+		sc.nextLine();
+		
+		System.out.print("Entre com o titular da conta: ");
+		conta.setTitular(sc.nextLine());
+		
+		System.out.print("Entre com o valor do deposito: ");
+		conta.depositar(sc.nextDouble());
+				
+		System.out.println(conta);
+		System.out.println("Saldo: " + conta.getSaldo());
+		
+		System.out.print("Qual o valor do saque: ");
+		conta.sacar(sc.nextDouble());
+		
+		System.out.println(conta);
+		System.out.println("Saldo: " + conta.getSaldo());*/
+		
+		sc.close();
+		
+
+	}
+
+}

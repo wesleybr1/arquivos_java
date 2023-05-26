@@ -1,0 +1,28 @@
+package entities;
+
+public class ContaCorrente extends Conta{
+
+	public ContaCorrente() {
+		super();
+	}
+
+	public ContaCorrente(String titularConta, int agencia, int numeroConta) {
+		super(titularConta, agencia, numeroConta);
+	}
+	
+	@Override
+	public void sacar(double quantiaSacar) {
+		if (saldo < -150.00) {
+			System.out.println("Saldo indisponivel!");
+		}
+		else {
+			saldo = saldo - (quantiaSacar + 2);
+		}
+	}
+		
+	@Override
+	public void depositar(double quantiaDeposito) {
+		saldo = saldo + quantiaDeposito;
+	}
+
+}

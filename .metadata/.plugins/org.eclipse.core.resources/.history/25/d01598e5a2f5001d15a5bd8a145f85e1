@@ -1,0 +1,19 @@
+package principal;
+
+import entities.Televisor;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Televisor tv =new Televisor();
+	     
+		tv.ligarVisor();
+		tv.subirCanal();
+		tv.aumentaVolume();
+		tv.mostraStatus();
+		tv.descerCanal();
+		tv.reduzirVolume();
+		tv.mostraStatus();
+
+	}
+}

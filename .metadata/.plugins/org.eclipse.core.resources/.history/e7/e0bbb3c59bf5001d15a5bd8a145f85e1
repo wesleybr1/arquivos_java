@@ -1,0 +1,21 @@
+package entities;
+
+public class ContaCorrete extends Conta{
+
+	public ContaCorrete() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public ContaCorrete(String titular, int numeroConta, int agencia) {
+		super(titular, numeroConta, agencia);
+		// TODO Auto-generated constructor stub
+	}
+	
+	@Override
+	public void sacar(double valor) {
+		saldo -= valor + 2;
+	}
+	
+	
+}
